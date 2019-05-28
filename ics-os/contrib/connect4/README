@@ -1,0 +1,28 @@
+Connect-Four Game for ICS-OS
+Author: Pangilinan, Moesha Dane D.P.
+
+--------------------------------
+
+1.	Go to file/s directory.
+	$cd contrib/<folderName>
+
+2. 	While in file directory, use scripts to compile and build.
+	Running chmod ONCE is enough unless you make a change in the .sh file.
+	Choose from either of the two, or do both.
+	I.
+		$chmod +x compile.sh			//for COMPILING
+		$chmod +x build.sh				//for BUILDING and RUNNING ICS-OS
+	II.
+		$chmod +x sample.sh				//for COMPILING AND BUILDING
+
+3. Run scripts in the terminal.
+	I.	./compile.sh					//COMPILE before BUILDING for
+		./build.sh						//changes to be applied
+	II.
+		./sample.sh						//use only when code is FINISHED
+		//will not show COMPILATION ERROR should there be any
+		//in the case of a compilation error, the last COMPILED file will be used.
+										
+3. Run <fileName>.exe inside ics-os
+
+Enjoy!
